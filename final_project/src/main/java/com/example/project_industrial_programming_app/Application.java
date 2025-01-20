@@ -14,6 +14,7 @@ public class Application extends javafx.application.Application {
         Scene scene = new Scene(fxmlLoader.load(), 1000, 600);
 
 
+
         Image icon = new Image(getClass().getResourceAsStream("/com/example/project_industrial_programming_app/your-icon.png"));
         stage.getIcons().add(icon);
 
